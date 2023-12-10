@@ -24,25 +24,14 @@ This is a React component that generates Lorem Ipsum paragraphs based on the num
     cd lorem-ipsum
 ```
 ## Usage
-To use the Lorem Ipsum Generator component in your React application, you can import it and include it in your JSX:
+To use the Lorem Ipsum Generator component in your React application, you can import it and include it in your JSX
+
+To start the development server, run:
 
 ```
-import React from 'react';
-import Lorem from './path-to-lorem-component/Lorem';
-
-const App = () => {
-  return (
-    <div>
-      {/* Your other components */}
-      <Lorem />
-      {/* Your other components */}
-    </div>
-  );
-};
-
-export default App;
-
+npm run dev
 ```
+Visit http://localhost:3000 in your browser to see the application.
 
 ## Component Structure
 
