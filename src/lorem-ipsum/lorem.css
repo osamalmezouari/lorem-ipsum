@@ -1,0 +1,29 @@
+section {
+    margin-top: 100px;
+}
+section > .title {
+    font-size: 30px;
+    font-weight: 400;
+}
+section > form:nth-child(2) {
+    max-width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+section > form:nth-child(2) > input {
+    height: 30px;
+    max-width: 80px;
+}
+section > form:nth-child(2) > button {
+    height: 35.2px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: lawngreen;
+    cursor: pointer;
+    color: white;
+}
+section >article {
+    margin-top: 50px;
+}
